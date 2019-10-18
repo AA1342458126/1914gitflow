@@ -6,16 +6,19 @@
     <input type="text" placeholder="请输入用户名">
     <input type="password" placeholder="请输入密码"><br/>
     <button class="reg-btn">注册</button>
+    <!--这里是lrj-->
+    <Login></Login>
   </div>
 </template>
 
 <script>
 import HelloWorld from './components/HelloWorld.vue'
-
+import Login from './components/Login.vue'
 export default {
   name: 'app',
   components: {
-    HelloWorld
+    HelloWorld,
+      Login
   }
 }
 </script>
